@@ -4,17 +4,20 @@
     width: 100%;;
     height: 100vh;
     background-image: url('../images/welcome-background.png');
-    object-fit: fill;
+    background-size: cover;
+    background-repeat: no-repeat;
 
+    
+    
     color: #ededed;
 }
 
 .logo-and-menu {
     display: flex;
     justify-content: space-between;
-
+    
     padding: 10.6vh 10vw;
-
+    
     text-transform: uppercase;
 }
 
@@ -34,6 +37,17 @@
     display: none;
 }
 
-.welcome-headline {
+.welcome-title {
+    padding-top: 20vh;
+    padding-right: 10vw;
+    float: right;
+}
+
+.welcome-title-headline {
     font-size: 3rem;
+}
+
+.welcome-title-quote {
+    text-align: right;
+    font-size: 1.5rem;
 }

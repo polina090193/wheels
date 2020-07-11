@@ -1,2 +1,6 @@
-@import "reset.css";
-@import "style.css";
+@media screen and (max-width: 1200px) {
+    .welcome-block {
+
+        background-size: contain;
+    }   
+}
