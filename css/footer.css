@@ -1,0 +1,60 @@
+.footer {
+    background-color: #1e1e1e;
+    color: #ededed;
+    text-transform: uppercase;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5.28vh 14.79vw 20.83vh;
+}
+
+.footer-headline {
+    font-size: 1.875rem;
+    margin-bottom: 13.33vh;
+}
+
+.footer-links-block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.quick-links {
+    font-size: 1.125rem;
+    text-transform: uppercase;
+}
+
+.quick-links-headline {
+    margin-bottom: 2.78vh;
+}
+
+.quick-links-menu-item {
+    margin-bottom: 1.57vh;
+}
+
+.contacts {
+    font-size: 1.125rem;
+}
+
+.contacts-headline {
+    margin-bottom: 2.78vh;
+}
+
+.address {
+    font-size: 1.125rem;
+    text-transform: none;
+
+}
+
+.social-headline {
+    margin-bottom: 2.78vh;
+}
+
+.social-buttons {
+    display: flex;
+}
+
+.social-button {
+    margin-right: 10px;
+}

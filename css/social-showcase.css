@@ -1,0 +1,29 @@
+.social-showcase {
+    color: #1e1e1e;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6.3vh 10vw 5.56vh;
+}
+
+.social-showcase-headline {
+    font-size: 1.875rem;
+    text-transform: uppercase;
+
+}
+
+.social-showcase-description {
+    font-size: 1.125rem;
+}
+
+.instagram-gallery {
+    display: flex;
+    align-items: center;
+}
+
+.follow-us {
+    color: #3b3b3b;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
