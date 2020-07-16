@@ -9,9 +9,11 @@
 
     background-color: #ededed;
     color: #3b3b3b;
+    font-family: 'Raleway Semibold';
 }
 
 .about-us-headline {
+    font-family: 'Raleway Extra Bold';
     font-size: 1.875rem;
     text-transform: uppercase;
     color: #1d1d1d;

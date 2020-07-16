@@ -8,6 +8,7 @@
 }
 
 .main-menu-logo {
+    font-family: 'Raleway Extra Bold';
     font-size: 1.875rem;
     color: #1c1c1c;
 }
@@ -20,6 +21,8 @@
 }
 
 .main-menu-item {
+    font-family: 'Raleway Semibold';
+
     color: #3b3b3b;
     font-size: 1.125rem;
 }

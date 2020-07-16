@@ -1,5 +1,6 @@
 .social-showcase {
     color: #1e1e1e;
+    font-family: 'Raleway Extra Bold';
 
     display: flex;
     flex-direction: column;
@@ -10,10 +11,11 @@
 .social-showcase-headline {
     font-size: 1.875rem;
     text-transform: uppercase;
-
+    font-family: 'Raleway Extra Bold';
 }
 
 .social-showcase-description {
+    font-family: 'Raleway Semibold';
     font-size: 1.125rem;
 }
 

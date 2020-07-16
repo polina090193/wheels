@@ -25,11 +25,13 @@
     text-transform: uppercase;
 }
 
-.quick-links-headline {
+.footer-subtitle {
+    font-family: 'Raleway Black';
     margin-bottom: 2.78vh;
 }
 
 .quick-links-menu-item {
+    font-family: 'Raleway Semibold';
     margin-bottom: 1.57vh;
 }
 
@@ -37,18 +39,10 @@
     font-size: 1.125rem;
 }
 
-.contacts-headline {
-    margin-bottom: 2.78vh;
-}
-
 .address {
     font-size: 1.125rem;
     text-transform: none;
-
-}
-
-.social-headline {
-    margin-bottom: 2.78vh;
+    font-family: 'Raleway Semibold';
 }
 
 .social-buttons {

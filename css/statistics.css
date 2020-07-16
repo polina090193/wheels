@@ -13,10 +13,12 @@
     align-items: center;
     justify-content: center;
 
+    font-family: 'Raleway Semibold';
     color: #ededed;
 }
 
 .statistics-headline {
+    font-family: 'Raleway Extra Bold';
     font-size: 1.875rem;
     text-transform: uppercase;
 }

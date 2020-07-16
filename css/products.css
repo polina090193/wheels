@@ -1,5 +1,6 @@
 .featured-products {
     color: #3b3b3b;
+    font-family: 'Raleway Semibold';
 
     margin: 4.81vh 9.11vw 7.04vh;
 
@@ -9,6 +10,7 @@
 }
 
 .featured-products-headline {
+    font-family: 'Raleway Extra Bold';
     font-size: 1.875rem;
     text-transform: uppercase;
     color: #1e1e1e;
@@ -43,6 +45,7 @@
 }
 
 .product-name {
+    font-family: 'Raleway Bold';
     font-size: 1.5rem;
     text-transform: uppercase;
 }

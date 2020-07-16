@@ -19,11 +19,12 @@
 
 .welcome-logo {
     font-size: 1.875rem;
-    font-family: 'Raleway Extra Bold' serif;
+    font-family: 'Raleway Extra Bold';
 }
 
 .dropdown-menu-header {
     font-size: 1.5rem;
+    font-family: 'Raleway Semibold';
 }
 
 .dropdown-menu-header::after {
@@ -42,9 +43,18 @@
 
 .welcome-title-headline {
     font-size: 3rem;
+    font-family: 'Raleway Extra Bold';
+    text-transform: uppercase;
 }
 
 .welcome-title-quote {
+    font-family: 'Raleway Regular';
+    
     text-align: right;
     font-size: 1.5rem;
+}
+
+.welcome-title-quote-author {
+    font-family: 'Raleway Light Italic';
+    font-size: 1.125rem;
 }
