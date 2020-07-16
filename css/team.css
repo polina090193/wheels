@@ -1,0 +1,51 @@
+.team {
+    background-color: #ededed;
+    color: #1e1e1e;
+
+    padding: 4.81vh 19.01vw 5.28vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-headline {
+    font-size: 1.875rem;
+    text-transform: uppercase;
+}
+
+.team-description {
+    font-size: 1.125rem;
+}
+
+.team-members {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    margin-right: 13.96vw;
+    text-transform: uppercase;
+}
+
+.team-member:last-child {
+    margin-right: 0;
+}
+
+.team-member-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-member-name {
+    font-size: 1.875rem;
+}
+
+.team-member-position {
+    font-size: 1.125rem;
+    text-align: center;
+}
