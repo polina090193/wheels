@@ -1,0 +1,21 @@
+.about-us {
+    height: 30.09vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+}
+
+.about-us-headline {
+    font-size: 1.875rem;
+    text-transform: uppercase;
+}
+
+.about-us-subtitle {
+    font-size: 1.125rem;
+}
+
+.about-us-description {
+    width: 70vw;
+    font-size: 0.875rem;
+}

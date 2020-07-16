@@ -1,0 +1,24 @@
+.main-menu {
+    height: 7.59vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    text-transform: uppercase;
+}
+
+.main-menu-logo {
+    font-size: 1.875rem;
+    
+}
+
+.main-menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 54.27vw;
+}
+
+.main-menu-item {
+    font-size: 1.125rem;
+}

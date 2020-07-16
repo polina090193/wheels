@@ -1,0 +1,45 @@
+.statistics {
+    background-color: black;
+    background-image: url(../images/statistics-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 42.2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #ededed;
+}
+
+.statistics-headline {
+    font-size: 1.875rem;
+    text-transform: uppercase;
+}
+
+.statistics-description {
+    font-size: 1.125rem;
+}
+
+.statistics-items {
+    display: flex;
+    justify-content: space-between;
+    width: 47.4vw;
+}
+
+.statistics-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statistics-item-value {
+    font-size: 4.5rem;
+}
+
+.statistics-item-name {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
