@@ -1,9 +1,13 @@
 .about-us {
-    height: 30.09vh;
+    /* height: 30.09vh; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: transparent;
+
+    padding-top: 9.63vh;
+    padding-bottom: 6.48vh;
+
+    background-color: #ededed;
 }
 
 .about-us-headline {

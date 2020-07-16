@@ -4,7 +4,10 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    height: 42.2vh;
+    /* height: 42.2vh; */
+    padding-top: 8.7vh;
+    padding-bottom: 9.63vh;
+
     display: flex;
     flex-direction: column;
     align-items: center;
