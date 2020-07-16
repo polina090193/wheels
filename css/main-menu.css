@@ -9,7 +9,7 @@
 
 .main-menu-logo {
     font-size: 1.875rem;
-    
+    color: #1c1c1c;
 }
 
 .main-menu-list {
@@ -20,5 +20,6 @@
 }
 
 .main-menu-item {
+    color: #3b3b3b;
     font-size: 1.125rem;
 }

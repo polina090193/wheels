@@ -8,11 +8,13 @@
     padding-bottom: 6.48vh;
 
     background-color: #ededed;
+    color: #3b3b3b;
 }
 
 .about-us-headline {
     font-size: 1.875rem;
     text-transform: uppercase;
+    color: #1d1d1d;
 }
 
 .about-us-subtitle {
