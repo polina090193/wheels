@@ -1,6 +1,33 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1090px) and (max-aspect-ratio: 11/9) {
     .welcome-block {
+        /* background-size: contain; */
+        background-position: 30% 0;
+    }  
 
-        background-size: contain;
-    }   
+    .logo-and-menu,
+    .main-menu-logo,
+    .statistics,
+    .quick-links,
+    .footer-headline {
+        display: none;
+    }
+
+    .main-menu,
+    .main-menu-list,
+    .product-items,
+    .team-members,
+    .instagram-gallery,
+    .footer-links-block {
+        flex-direction: column;
+    }
+
+    .main-menu {
+        height: auto;
+    }    
+
+    .instagram-photo,
+    .contacts,
+    .social {
+        margin-bottom: 20px;
+    }
 }
