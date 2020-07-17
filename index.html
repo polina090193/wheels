@@ -7,17 +7,17 @@
     <title>Wheels</title>
 </head>
 <body>
-    <header class="welcome-block">
+    <a name="welcome"><header class="welcome-block"></a>
         <section class="logo-and-menu">
             <h2 class="welcome-logo">Wheels</h2>
             <nav class="dropdown-menu">
-                <a href="#"><h2 class="dropdown-menu-header">Menu </h2></a>
-                <ul class="dropdown-menu-list">
-                    <a href="#"><li class="dropdown-menu-item">About us</li></a>
-                    <a href="#"><li class="dropdown-menu-item">Products</li></a>
-                    <a href="#"><li class="dropdown-menu-item">Our team</li></a>
-                    <a href="#"><li class="dropdown-menu-item">Contacts</li></a>
+                <ul class="dropdown-menu-list dropdown-menu-list-closed">
+                    <a href="#about-us"><li class="dropdown-menu-item">About us</li></a>
+                    <a href="#products"><li class="dropdown-menu-item">Products</li></a>
+                    <a href="#team"><li class="dropdown-menu-item">Our team</li></a>
+                    <a href="#contacts"><li class="dropdown-menu-item">Contacts</li></a>
                 </ul>
+                <h2 class="dropdown-menu-header">Menu </h2>
             </nav>
         </section>
         <section class="welcome-title">
@@ -32,14 +32,14 @@
     <nav class="main-menu">
         <h2 class="main-menu-logo">Wheels</h2>
         <ul class="main-menu-list">
-            <a href="#"><li class="main-menu-item">About us</li></a>
-            <a href="#"><li class="main-menu-item">Products</li></a>
-            <a href="#"><li class="main-menu-item">Our team</li></a>
-            <a href="#"><li class="main-menu-item">Contacts</li></a>
+            <a href="#about-us"><li class="main-menu-item">About us</li></a>
+            <a href="#products"><li class="main-menu-item">Products</li></a>
+            <a href="#team"><li class="main-menu-item">Our team</li></a>
+            <a href="#contacts"><li class="main-menu-item">Contacts</li></a>
         </ul>
     </nav>
 
-    <article class="about-us">
+    <a name="about-us"><article class="about-us"></a>
         <h2 class="about-us-headline">About us</h2>
         <h3 class="about-us-subtitle">Let’s talk about what makes your company great</h3>
         <img src="images/bike-icon.png" alt="Bike icon" class="bike-icon">
@@ -69,7 +69,7 @@
         </section>
     </article>
 
-    <article class="featured-products">
+    <a name="products"><article class="featured-products"></a>
         <h2 class="featured-products-headline">Featured Products</h2>
         <p class="featured-products-description">Your chance to shine</p>
         <section class="product-items">
@@ -100,7 +100,7 @@
         </section>
     </article>
 
-    <article class="team">
+    <a name="team"><article class="team"></a>
         <h2 class="team-headline">Meet the team</h2>
         <p class="team-description">People who make the magic happen</p>
         <section class="team-members">
@@ -128,7 +128,7 @@
         </section>
     </article>
 
-    <article class="social-showcase">
+    <a name="instagram"><article class="social-showcase"></a>
         <h2 class="social-showcase-headline">#social showcase</h2>
         <p class="social-showcase-description">Show your customers why your Instagram account is the one they should follow!</p>
         <section class="instagram-gallery">
@@ -140,17 +140,17 @@
         <p class="follow-us">Follow @Wheelz on Instagram</figcaption>
     </article>
 
-    <footer class="footer">
+    <a name="contacts"><footer class="footer"></a>
         <h2 class="footer-headline">wheelz</h2>
         <section class="footer-links-block">
             <nav class="quick-links">
                 <h3 class="footer-subtitle">Quick Links</h2>
                     <ul class="quick-links-menu">
-                        <li class="quick-links-menu-item">Welcome</li>
-                        <li class="quick-links-menu-item">About us</li>
-                        <li class="quick-links-menu-item">Products</li>
-                        <li class="quick-links-menu-item">Team</li>
-                        <li class="quick-links-menu-item">Our Instagram</li>
+                        <a href="#welcome"><li class="quick-links-menu-item">Welcome</li></a>
+                        <a href="#about-us"><li class="quick-links-menu-item">About us</li></a>
+                        <a href="#products"><li class="quick-links-menu-item">Products</li></a>
+                        <a href="#team"><li class="quick-links-menu-item">Team</li></a>
+                        <a href="#instagram"><li class="quick-links-menu-item">Our Instagram</li></a>
                     </ul>
             </nav>
             <aside class="contacts">
@@ -173,5 +173,14 @@
             </figure>
         </section>
     </footer>
+    <script>
+        let menuButton = document.querySelector('.dropdown-menu-header');
+        let dropdownMenu = document.querySelector('.dropdown-menu-list');
+        let welcomeTitle = document.querySelector('.welcome-title')
+
+        menuButton.onclick = function showMenu() {
+            dropdownMenu.classList.toggle('dropdown-menu-list-closed');
+        }
+    </script>
 </body>
 </html>

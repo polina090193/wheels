@@ -22,17 +22,38 @@
     font-family: 'Raleway Extra Bold';
 }
 
+.dropdown-menu {
+    font-family: 'Raleway Semibold';
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
 .dropdown-menu-header {
     font-size: 1.5rem;
-    font-family: 'Raleway Semibold';
+    position: relative;
+    right: 5%;
 }
 
 .dropdown-menu-header::after {
     content: url(../images/burger-menu.png);
+    position: absolute;
+    right: -35%;
 }
 
 .dropdown-menu-list {
-    display: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: start;
+}
+
+.dropdown-menu-list-closed {
+    visibility: hidden;
+}
+
+.dropdown-menu-item {
+    margin-right: 5vw;
 }
 
 .welcome-title {
