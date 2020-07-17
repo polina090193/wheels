@@ -1,8 +1,23 @@
 @media screen and (max-width: 1090px) and (max-aspect-ratio: 11/9) {
     .welcome-block {
-        /* background-size: contain; */
         background-position: 30% 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }  
+
+    .welcome-title {
+        padding-right: 0;
+        padding-top: 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome-title-headline {
+        text-align: center;
+    }
 
     .logo-and-menu,
     .main-menu-logo,
@@ -25,9 +40,47 @@
         height: auto;
     }    
 
+    .main-menu-list {
+        height: 100%;
+        justify-content: space-around;
+    }
+
+    .main-menu-item:first-child {
+        margin-top: 4vh;
+    }
+
+    .main-menu-item,
+    .bike-icon,
+    .product-item,
+    .team-description,
+    .team-member,
+    .social-showcase-description,
     .instagram-photo,
-    .contacts,
+    .contacts {
+         margin-bottom: 4vh;
+    }
+
+    .about-us-subtitle {
+        margin: 3vh 10vw 3vh;
+    }
+        
+    .social-showcase-description,
+    .follow-us,
+    .footer-subtitle,
+    .team-description,
+    .about-us-subtitle {
+        text-align: center;
+    }
+
+    .team-member {
+        margin-right: 0;
+    }
+
     .social {
-        margin-bottom: 20px;
+        margin-bottom: 8vh;
+    }
+
+    .social-buttons {
+        justify-content: space-around;
     }
 }

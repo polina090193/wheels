@@ -37,6 +37,10 @@
     margin-right: 0;
 }
 
+.team-member-photo {
+    object-fit: contain;
+}
+
 .team-member-description {
     display: flex;
     flex-direction: column;

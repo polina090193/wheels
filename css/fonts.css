@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Raleway Black';
-    src: url('Raleway-Black.eot');
-    src: url('Raleway-Black.eot?#iefix') format('embedded-opentype'),
-    url('Raleway-Black.woff') format('woff'),
-    url('Raleway-Black.ttf') format('truetype');
+    src: url('../fonts/Raleway-Black.eot');
+    src: url('../fonts/Raleway-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Raleway-Black.woff') format('woff'),
+    url('../fonts/Raleway-Black.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
