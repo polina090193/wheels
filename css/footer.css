@@ -12,6 +12,7 @@
 .footer-headline {
     font-size: 1.875rem;
     margin-bottom: 13.33vh;
+    font-family: 'Raleway Extra Bold';
 }
 
 .footer-links-block {
@@ -20,9 +21,11 @@
     width: 100%;
 }
 
+
 .quick-links {
     font-size: 1.125rem;
     text-transform: uppercase;
+    margin-right: 5%;
 }
 
 .footer-subtitle {
@@ -37,12 +40,16 @@
 
 .contacts {
     font-size: 1.125rem;
+    margin-right: 5%;
 }
 
 .address {
     font-size: 1.125rem;
     text-transform: none;
     font-family: 'Raleway Semibold';
+}
+.social {
+    margin-right: 5%;
 }
 
 .social-buttons {

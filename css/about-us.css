@@ -1,9 +1,10 @@
 .about-us {
+
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    padding-top: 9.63vmin;
+    padding-top: 6.63vh;
     padding-bottom: 6.48vh;
 
     background-color: #ededed;
@@ -20,6 +21,11 @@
 
 .about-us-subtitle {
     font-size: 1.125rem;
+    margin: 2vmin 10vmin 2vmin;
+}
+
+.bike-icon {
+    margin-bottom: 3vmin;
 }
 
 .about-us-description {

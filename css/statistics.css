@@ -4,7 +4,6 @@
     background-size: cover;
     background-repeat: no-repeat;
 
-    /* height: 42.2vh; */
     padding-top: 8.7vh;
     padding-bottom: 9.63vh;
 
@@ -25,12 +24,13 @@
 
 .statistics-description {
     font-size: 1.125rem;
+    margin-bottom: 5.09vh;
 }
 
 .statistics-items {
     display: flex;
     justify-content: space-between;
-    width: 47.4vw;
+    width: 67.67%;
 }
 
 .statistics-item {

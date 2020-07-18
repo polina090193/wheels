@@ -1,9 +1,15 @@
 .main-menu {
     height: 7.59vh;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
 
+    background-color: #fff;
     text-transform: uppercase;
 }
 

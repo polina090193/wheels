@@ -23,16 +23,18 @@
 }
 
 .dropdown-menu {
-    font-family: 'Raleway Semibold';
-    width: 70%;
     display: flex;
     align-items: center;
+    width: 70%;
+
+    font-family: 'Raleway Semibold';
 }
 
 .dropdown-menu-header {
     font-size: 1.5rem;
     position: relative;
     right: 5%;
+    cursor: pointer;
 }
 
 .dropdown-menu-header::after {
@@ -57,9 +59,12 @@
 }
 
 .welcome-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
     padding-top: 20vh;
     padding-right: 10vw;
-    float: right;
 }
 
 .welcome-title-headline {

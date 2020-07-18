@@ -1,9 +1,10 @@
 @media screen and (max-width: 1090px) and (max-aspect-ratio: 11/9) {
     .welcome-block {
         background-position: 30% 0;
+
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        align-items: center;
     }  
 
     .welcome-title {
@@ -13,10 +14,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+        justify-content: space-between;
 
-    .welcome-title-headline {
-        text-align: center;
+        margin: auto 10vmin;
+
     }
 
     .logo-and-menu,
@@ -38,6 +39,7 @@
 
     .main-menu {
         height: auto;
+        position: static;
     }    
 
     .main-menu-list {
@@ -50,7 +52,6 @@
     }
 
     .main-menu-item,
-    .bike-icon,
     .product-item,
     .team-description,
     .team-member,
@@ -60,16 +61,19 @@
          margin-bottom: 4vh;
     }
 
-    .about-us-subtitle {
-        margin: 3vh 10vw 3vh;
-    }
-        
-    .social-showcase-description,
+    .welcome-title-headline,
     .follow-us,
-    .footer-subtitle,
     .team-description,
+    .footer-subtitle,
     .about-us-subtitle {
         text-align: center;
+    }
+
+    .footer-links-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
     .team-member {
@@ -78,6 +82,7 @@
 
     .social {
         margin-bottom: 8vh;
+        width: 100%;
     }
 
     .social-buttons {
