@@ -9,14 +9,14 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="burger-menu.svg"
-   viewBox="0 0 19 18"
-   height="18"
-   width="19"
-   id="svg10"
+   sodipodi:docname="linked-in.svg"
+   viewBox="0 0 30 28"
+   height="28"
+   width="30"
+   id="svg46"
    version="1.1">
   <metadata
-     id="metadata16">
+     id="metadata52">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -28,19 +28,19 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs14" />
+     id="defs50" />
   <sodipodi:namedview
-     inkscape:current-layer="g18"
-     inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="-8"
-     inkscape:cy="5.7009489"
-     inkscape:cx="9.5"
-     inkscape:zoom="37.222222"
+     inkscape:current-layer="g54"
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="14"
+     inkscape:cx="15"
+     inkscape:zoom="23.928571"
      showgrid="false"
-     id="namedview12"
-     inkscape:window-height="837"
-     inkscape:window-width="1600"
+     id="namedview48"
+     inkscape:window-height="480"
+     inkscape:window-width="729"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
      guidetolerance="10"
@@ -50,12 +50,12 @@
      bordercolor="#666666"
      pagecolor="#ffffff" />
   <g
-     id="g18"
+     id="g54"
      inkscape:label="Image"
      inkscape:groupmode="layer">
     <image
-       id="image20"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+       id="image56"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAcCAYAAAB2+A+pAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
 bWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
 bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
 eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0
@@ -65,21 +65,25 @@ dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
 IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
 ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
 cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNl
-SUQ9InhtcC5paWQ6MkRGMjUxNEFDMzY1MTFFQUIxNTBFRTRBOEU4MzFENzIiIHhtcE1NOkRvY3Vt
-ZW50SUQ9InhtcC5kaWQ6MkRGMjUxNEJDMzY1MTFFQUIxNTBFRTRBOEU4MzFENzIiPiA8eG1wTU06
-RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyREYyNTE0OEMzNjUxMUVBQjE1
-MEVFNEE4RTgzMUQ3MiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyREYyNTE0OUMzNjUxMUVB
-QjE1MEVFNEE4RTgzMUQ3MiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1w
-bWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pr3a3hYAAAD6SURBVHjarFRLDoIwEJ3yiewwrty6Ml7D
-rTvP4U6XLD2Ch9ON3qCRHQYJvkdagyQiLU7yOqUwj5nXaZXWeisiGZACD3G3CZArpY4KZFdMFnVd
-y0i7BRiKb0T4iQtZEWHYISgDYQpfumaImBgxOaZNmVxIsZDAVx5kIWIK6sbMxDDnv4hYdveb9nNk
-/AyI+c5DeApbAppkG9MaU+DpQUaOu9XsjMlybF9AgkvwB5K3dkxx71JmO9j4jzKdNqBL1t0Amh5a
-Vl/7WDIe8gSoPGQLeZRs065bt0bpQUZ5muNEshOwkvE2D0x5g1ugxxJmdhhyOfYIP7FlvgQYAJoz
-baoH9eWCAAAAAElFTkSuQmCC
+SUQ9InhtcC5paWQ6RERBNkRGMTJDNzdEMTFFQUI0NzVBQTIzMjM4OTM1OTkiIHhtcE1NOkRvY3Vt
+ZW50SUQ9InhtcC5kaWQ6RERBNkRGMTNDNzdEMTFFQUI0NzVBQTIzMjM4OTM1OTkiPiA8eG1wTU06
+RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpEREE2REYxMEM3N0QxMUVBQjQ3
+NUFBMjMyMzg5MzU5OSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpEREE2REYxMUM3N0QxMUVB
+QjQ3NUFBMjMyMzg5MzU5OSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1w
+bWV0YT4gPD94cGFja2V0IGVuZD0iciI/PueBYYQAAAHWSURBVHja3JbPK0RRFMffvJlkyJhSkh0L
+iYUN+VWyItmQSBY2lhZEFrYWFrLzF7CRmo2FX8lGEim/YkVZTUKeKAZjZnwv59btdu8bw32zcOpT
+8869933PeffMPdfnOE7AsqwpMAjyrW/bAsPgxvLImOgomJT8PSAIusG7F8I26NOMtYFqrzK2KTPd
+18jzUnhTM3YKzrwUngYrkv+Iiu3RK2EfqpoH0AHKwD3YAI7loXHhrBsroBBoAn4QJz8rqitwwgME
+9aAEvArrc0EUHNBzDmgEFSAMnsAF2JXWfQlXgjVFUBHQS79ZULOgWTFvGXSBfjAGaigAbh/gGMyB
+BbG4fmIpkNCMxcAIWAR1kihPrhbMgxlROCF/BrI3SfhZI9wivjCNTYChTDLm+6yyUkWWbsb6QlHA
+YKGyIloFSdAOqlwC7TQlvA0GqMKZFYMl0KqZ32AbEL2jfYsKvlswDl40a8pNCO+DS4X/kI5elRWa
+EI67jF3rCtWEsN9lLKk7F0z8ndJ1v8wG/jg3uy/7V8K+X+6xkYyNC6cIVSt0e07nd11jU2dRXXEL
+pGzDulPIRTik8YdZk3gA6xQAP4WCwnWGR75DPVns3UG61uhsj+bEpOvS+acAAwDOtlrGmPRXhQAA
+AABJRU5ErkJggg==
 "
        style="image-rendering:optimizeSpeed"
        preserveAspectRatio="none"
-       height="18"
-       width="19" />
+       height="28"
+       width="30" />
   </g>
 </svg>
