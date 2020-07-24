@@ -2,11 +2,13 @@
     color: #3b3b3b;
     font-family: 'Raleway Semibold';
 
+    margin: 4.81% 9.11% 7.04%;
     margin: 4.81vh 9.11vw 7.04vh;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .featured-products-headline {
@@ -18,14 +20,16 @@
 
 .featured-products-description {
     font-size: 1.125rem;
+    margin-top: 1.85%;
+    margin-bottom: 3.7%;
     margin-top: 1.85vh;
     margin-bottom: 3.7vh;
 }
 
 .product-items {
     display: flex;
-    width: 100%;
     justify-content: space-between;
+    
 }
 
 .product-item {
@@ -33,6 +37,7 @@
     flex-direction: column;
     align-items: center;
 
+    margin-right: 4.06%;
     margin-right: 4.06vw;
 }
 

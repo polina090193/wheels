@@ -3,6 +3,7 @@
     color: #1e1e1e;
     font-family: 'Raleway Semibold';
 
+    padding: 4.81% 19.01% 5.28%;
     padding: 4.81vh 19.01vw 5.28vh;
 
     display: flex;
@@ -18,19 +19,22 @@
 
 .team-description {
     font-size: 1.125rem;
+    margin-top: 1.85%;
+    margin-bottom: 5.09%;
     margin-top: 1.85vh;
     margin-bottom: 5.09vh;
 }
 
 .team-members {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     justify-content: space-between;
 }
 
 .team-member {
     display: flex;
     flex-direction: column;
+    margin-right: 13.96%;
     margin-right: 13.96vw;
     text-transform: uppercase;
 }

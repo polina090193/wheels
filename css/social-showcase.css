@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 6.3% 10% 5.56%;
     padding: 6.3vh 10vw 5.56vh;
 }
 
@@ -17,6 +18,8 @@
 .social-showcase-description {
     font-family: 'Raleway Semibold';
     font-size: 1.125rem;
+    margin-top: 2.13%;
+    margin-bottom: 5.09%;
     margin-top: 2.13vh;
     margin-bottom: 5.09vh;
     text-align: center;
@@ -32,5 +35,6 @@
     font-size: 1.5rem;
     text-transform: uppercase;
 
+    margin-top: 6.11%;
     margin-top: 6.11vh;
 }
