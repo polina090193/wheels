@@ -1,4 +1,4 @@
-@media screen and (max-width: 1090px) and (max-aspect-ratio: 11/9), screen and (max-height: 480px) and (orientation: landscape) {
+@media  {
     .welcome-block {
         background-position: 30% 0;
 
