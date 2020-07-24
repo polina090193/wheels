@@ -91,4 +91,8 @@
     .social-buttons {
         justify-content: space-around;
     }
+
+    .footer-map {
+        max-width: 100%;
+    }
 }
