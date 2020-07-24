@@ -25,15 +25,12 @@
 .dropdown-menu {
     display: flex;
     align-items: center;
-    width: 70%;
 
     font-family: 'Raleway Semibold';
 }
 
 .dropdown-menu-header {
     font-size: 1.5rem;
-    position: relative;
-    right: 5%;
     cursor: pointer;
 }
 
