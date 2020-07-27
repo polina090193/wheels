@@ -18,12 +18,11 @@ productItems.onclick = function(event) {
     }
 
     let productPopUp = document.createElement('figure');
-    productPopUp.className = "product-popup";
-    productPopUp.innerHTML = targetPopup.innerHTML;
-    productItems.append(productPopUp);
-   
-    // targetPopup.style.backgroundColor = 'lightblue';
-    console.log(targetPopup.innerHTML)
+        productPopUp.className = "product-popup";
+        productPopUp.innerHTML = targetPopup.innerHTML;
+        productItems.append(productPopUp);
+
+        productPopUp.addEventListener('click', () => productPopUp.remove())
 }
 
 /* for(photo of productPhoto) {
