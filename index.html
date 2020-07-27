@@ -19,7 +19,10 @@
                     <a href="#team"><li class="dropdown-menu-item">Our team</li></a>
                     <a href="#contacts"><li class="dropdown-menu-item">Contacts</li></a>
                 </ul>
-                <h2 class="dropdown-menu-header">Menu </h2>
+                <div class="dropdown-menu-header">
+                    Menu 
+                    <img class="dropdown-menu-header-icon" src="images/burger-menu.svg">
+                </div>
             </nav>
         </section>
         <section class="welcome-title">
@@ -175,14 +178,6 @@
             <iframe class="footer-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12420.666600464332!2d-77.04239965999257!3d38.89730423221739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7bce1485b19%3A0x9fc7bf09fd5d9daf!2sThe%20White%20House%2C%201600%20Pennsylvania%20Avenue%20NW%2C%20Washington%2C%20DC%2020500%2C%20%D0%A1%D0%A8%D0%90!5e0!3m2!1sru!2sru!4v1595612592485!5m2!1sru!2sru" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </section>
     </footer>
-    <script>
-        let menuButton = document.querySelector('.dropdown-menu-header');
-        let dropdownMenu = document.querySelector('.dropdown-menu-list');
-        let welcomeTitle = document.querySelector('.welcome-title')
-
-        menuButton.onclick = function showMenu() {
-            dropdownMenu.classList.toggle('dropdown-menu-list-closed');
-        }
-    </script>
+    <script src="js/index.js"></script>
 </body>
 </html>
