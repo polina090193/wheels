@@ -65,7 +65,6 @@ img {
 }
 
 input,
-button,
 textarea,
 select {
   font: inherit;
@@ -79,4 +78,13 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
 }

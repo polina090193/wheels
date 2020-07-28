@@ -72,6 +72,22 @@
         text-align: center;
     }
 
+    .product-popup {
+        position: fixed;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    
+        background: white;
+        border: solid black 2px;
+    }
+    .product-pop-up-wrapper {
+        overflow-y: scroll;
+        max-height: 90%;
+    }
+
+
     .footer-links-block {
         display: flex;
         flex-direction: column;

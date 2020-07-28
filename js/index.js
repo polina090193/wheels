@@ -7,33 +7,51 @@ menuButton.onclick = function showMenu() {
 
 let productItems = document.querySelector('.product-items');
 
-productItems.onclick = function(event) {
+productItems.addEventListener('click', showPopup)
+
+function showPopup(){
     let target = event.target;
 
     if(target.classList.contains("product-price")) return;
-
+    
     let targetPopup = target.parentNode;
     while (!targetPopup.classList.contains("product-item")) {
         targetPopup = targetPopup.parentNode;
     }
 
-    let productPopUp = document.createElement('figure');
-        productPopUp.className = "product-popup";
-        productPopUp.innerHTML = targetPopup.innerHTML;
-        productItems.append(productPopUp);
+    let productPopUpWrapper = document.createElement('figure');
+    productPopUpWrapper.className = "product-pop-up-wrapper";
+    productPopUpWrapper.innerHTML = targetPopup.innerHTML;
+    
+    let productPopUp = document.createElement('div');
+    productPopUp.className = "product-popup";
+        if(document.querySelector('.product-popup') !== null) return;
+    
+    let learnMore = productPopUpWrapper.querySelector(".learn-more");
+        learnMore.remove();
+    
+    productPopUp.append(productPopUpWrapper);
+    productItems.append(productPopUp);
 
-        productPopUp.addEventListener('click', () => productPopUp.remove())
-}
+    let productDescription = document.createElement('article');
+    productDescription.className = "popup-product-description";
+    productDescription.innerHTML = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla tincidunt dui ac tincidunt. Cras faucibus sit amet augue sed ullamcorper.</p>';
 
-/* for(photo of productPhoto) {
-    photo.addEventListener('click', showProduct)
-}
+    productPopUpWrapper.append(productDescription);
+            
+    let closePopupButtonWrapper = document.createElement('div');
+        closePopupButtonWrapper.className = "close-popup-button-wrapper";
+        productPopUp.prepend(closePopupButtonWrapper);
 
-function showProduct() {
-    let productPopUp = document.createElement('figure');
-        productPopUp.className = "product-popup";
-        productPopUp.innerHTML = photo.innerHTML;
+    let closePopupButton = document.createElement('button');
+        closePopupButton.className = "close-popup-button";
+    closePopupButtonWrapper.prepend(closePopupButton);
+    closePopupButton.addEventListener('click', () => productPopUp.remove());
 
-    document.body.append(productPopUp);
-}
+/*     window.onclick = (event) => {
+        let productPopUp = document.querySelector('.product-popup');
+        if (event.target == productPopUp) {productPopUp.remove(); console.log('Done')};
+        
+    }
  */
+}

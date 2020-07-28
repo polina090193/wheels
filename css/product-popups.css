@@ -1,0 +1,36 @@
+.product-popup {
+    position: fixed;
+    top: 15%;
+    left: 37.2%;
+    width: 25%;
+
+    background: white;
+    border: solid black 2px;
+}
+
+.product-pop-up-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem 2rem;
+}
+
+.popup-product-description {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.close-popup-button-wrapper {
+    width: 100%;
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.close-popup-button {
+    background-image: url(../images/x.svg);
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+    margin: 1rem 1rem;
+}
