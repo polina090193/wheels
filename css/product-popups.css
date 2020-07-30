@@ -25,6 +25,8 @@
     
     flex-direction: row;
     justify-content: flex-end;
+
+    background-color: white;
 }
 
 .close-popup-button {

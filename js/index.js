@@ -6,10 +6,16 @@ menuButton.onclick = function showMenu() {
 }
 
 let productItems = document.querySelector('.product-items');
+let instaBlock = document.querySelector('.social-showcase');
+let instaItems = document.querySelectorAll('.instagram-photo'), photo;
 
-productItems.addEventListener('click', showPopup)
+productItems.addEventListener('click', showProductPopup);
 
-function showPopup(){
+for(photo of instaItems) {
+    photo.addEventListener('click', showInstaPopup);
+}
+
+function showProductPopup(){
     let target = event.target;
 
     if(target.classList.contains("product-price")) return;
@@ -38,20 +44,38 @@ function showPopup(){
     productDescription.innerHTML = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla tincidunt dui ac tincidunt. Cras faucibus sit amet augue sed ullamcorper.</p>';
 
     productPopUpWrapper.append(productDescription);
+    addClosePopupButton(productPopUp);
             
-    let closePopupButtonWrapper = document.createElement('div');
-        closePopupButtonWrapper.className = "close-popup-button-wrapper";
-        productPopUp.prepend(closePopupButtonWrapper);
-
-    let closePopupButton = document.createElement('button');
-        closePopupButton.className = "close-popup-button";
-    closePopupButtonWrapper.prepend(closePopupButton);
-    closePopupButton.addEventListener('click', () => productPopUp.remove());
-
 /*     window.onclick = (event) => {
         let productPopUp = document.querySelector('.product-popup');
         if (event.target == productPopUp) {productPopUp.remove(); console.log('Done')};
         
     }
  */
+}
+
+function showInstaPopup(){
+
+    let instaPopUp = document.createElement('figure');
+    instaPopUp.className = "insta-popup";
+
+    console.log(event.target.parentNode.innerHTML)
+
+    if(document.querySelector('.insta-popup') !== null) return;
+    instaPopUp.innerHTML = event.target.parentNode.innerHTML;
+
+    instaBlock.append(instaPopUp);
+
+    addClosePopupButton(instaPopUp);
+}
+
+function addClosePopupButton(elem) {
+    let closePopupButtonWrapper = document.createElement('div');
+        closePopupButtonWrapper.className = "close-popup-button-wrapper";
+        elem.prepend(closePopupButtonWrapper);
+
+    let closePopupButton = document.createElement('button');
+        closePopupButton.className = "close-popup-button";
+    closePopupButtonWrapper.prepend(closePopupButton);
+    closePopupButton.addEventListener('click', () => elem.remove());
 }
