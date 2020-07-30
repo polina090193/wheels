@@ -82,6 +82,11 @@
         background: white;
         border: solid black 2px;
     }
+
+    .insta-popup {
+        width: 90%
+    }
+
     .product-pop-up-wrapper {
         overflow-y: scroll;
         max-height: 90%;

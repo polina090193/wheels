@@ -59,8 +59,6 @@ function showInstaPopup(){
     let instaPopUp = document.createElement('figure');
     instaPopUp.className = "insta-popup";
 
-    console.log(event.target.parentNode.innerHTML)
-
     if(document.querySelector('.insta-popup') !== null) return;
     instaPopUp.innerHTML = event.target.parentNode.innerHTML;
 
