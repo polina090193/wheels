@@ -33,6 +33,8 @@
 }
 
 .product-item {
+    cursor: pointer;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,6 +60,7 @@
 }
 
 .product-price {
+    cursor: text;
     font-size: 1.875rem;
 }
 

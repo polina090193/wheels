@@ -30,6 +30,10 @@
     align-items: center;
 }
 
+.instagram-photo {
+    cursor: pointer;
+}
+
 .follow-us {
     color: #3b3b3b;
     font-size: 1.5rem;

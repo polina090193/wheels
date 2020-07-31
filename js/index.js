@@ -1,9 +1,7 @@
 let menuButton = document.querySelector('.dropdown-menu-header');
 let dropdownMenu = document.querySelector('.dropdown-menu-list');
 
-menuButton.onclick = function showMenu() {
-    dropdownMenu.classList.toggle('dropdown-menu-list-closed');
-}
+menuButton.onclick = () => dropdownMenu.classList.toggle('dropdown-menu-list-closed');
 
 let productItems = document.querySelector('.product-items');
 let instaBlock = document.querySelector('.social-showcase');
@@ -45,13 +43,7 @@ function showProductPopup(){
 
     productPopUpWrapper.append(productDescription);
     addClosePopupButton(productPopUp);
-            
-/*     window.onclick = (event) => {
-        let productPopUp = document.querySelector('.product-popup');
-        if (event.target == productPopUp) {productPopUp.remove(); console.log('Done')};
-        
-    }
- */
+    setTimeout(addWindowPopupClosing, 0, productPopUp);
 }
 
 function showInstaPopup(){
@@ -65,6 +57,7 @@ function showInstaPopup(){
     instaBlock.append(instaPopUp);
 
     addClosePopupButton(instaPopUp);
+    setTimeout(addWindowPopupClosing, 0, instaPopUp);
 }
 
 function addClosePopupButton(elem) {
@@ -76,4 +69,8 @@ function addClosePopupButton(elem) {
         closePopupButton.className = "close-popup-button";
     closePopupButtonWrapper.prepend(closePopupButton);
     closePopupButton.addEventListener('click', () => elem.remove());
+}
+
+function addWindowPopupClosing(elem) {
+    document.body.addEventListener('click', () => elem.remove());
 }
