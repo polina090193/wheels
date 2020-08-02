@@ -1,6 +1,7 @@
 @media screen and (max-width: 1090px) and (max-aspect-ratio: 11/9), screen and (max-height: 480px) and (orientation: landscape) {
     .welcome-block {
         background-position: 30% 0;
+        height: auto;
 
         display: flex;
         flex-direction: column;
@@ -16,7 +17,7 @@
         align-items: center;
         justify-content: space-between;
 
-        margin: auto 10vmin;
+        margin: 5vmax 10vmin;
 
     }
 
