@@ -2,3 +2,29 @@
     position: fixed;
     top: 15%;
 }
+
+.instagram-gallery {
+    list-style: none;
+    display: flex;
+}
+
+.instagram-gallery a {
+	cursor: default;
+}
+
+.instagram-gallery a .instagram-preview {
+	display: none;
+}
+
+a:hover img{
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+  z-index: 5;
+}
+.instagram-gallery a:hover .instagram-preview {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}

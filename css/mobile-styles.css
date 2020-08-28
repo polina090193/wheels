@@ -117,4 +117,16 @@
     .footer-map {
         max-width: 100%;
     }
+    
+    
+    a:hover img{
+      -webkit-transform: none;
+      transform: none;
+      z-index: 5;
+    }
+    .instagram-gallery a:hover .instagram-preview {
+        display: none;
+        position: static;
+        z-index: 1;
+    }
 }
