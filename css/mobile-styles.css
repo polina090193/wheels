@@ -73,6 +73,20 @@
         text-align: center;
     }
 
+    .insta-popup {
+        width: 90%
+    }
+    
+    .instagram-gallery a:hover img{
+        -webkit-transform: none;
+        transform: none;
+        width: max-content;
+    }
+    
+    .instagram-gallery a:hover .instagram-preview {
+        display: none;
+    }
+    
     .product-popup {
         position: fixed;
         top: 5%;
@@ -82,10 +96,6 @@
     
         background: white;
         border: solid black 2px;
-    }
-
-    .insta-popup {
-        width: 90%
     }
 
     .product-pop-up-wrapper {
@@ -116,17 +126,5 @@
 
     .footer-map {
         max-width: 100%;
-    }
-    
-    
-    a:hover img{
-      -webkit-transform: none;
-      transform: none;
-      z-index: 5;
-    }
-    .instagram-gallery a:hover .instagram-preview {
-        display: none;
-        position: static;
-        z-index: 1;
     }
 }

@@ -85,7 +85,7 @@ function addWindowPopupClosing(elem) {
     document.body.addEventListener('click', () => elem.remove());
 }
 
-
+/* 
 let statistic = document.querySelector('.statistics');
     currentBikesSold = 409;
     
@@ -120,4 +120,4 @@ function onScroll() {
         window.onscroll = statisticCounter;
         return true
     }
-}
+} */

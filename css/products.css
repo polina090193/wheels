@@ -64,6 +64,10 @@
     font-size: 1.875rem;
 }
 
+.product-photo {
+    width: 100%;
+}
+
 .product-price::before {
     content: "$";
 }
